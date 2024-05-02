@@ -5,7 +5,7 @@ The package contains several modules which you'll need to import and call functi
 
 A minimal working example to run the ammonia analysis is:
 
-```py
+```python
 from scarplus import cloud, cloud_setup, scarplus_fitter
 
 dm = cloud.DirectoryManager({'NH3':'path/to/store/generated/files',
